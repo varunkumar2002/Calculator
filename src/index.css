@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cornsilk;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main{
+  text-align: center;
+  color: Black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calculator{
+  width: 400px;
+  margin: 0 auto;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzHmA9aQBpRhySEbDIC5jykLDL7LsyNGw0A&usqp=CAU); 
+ border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+input[type="text"]{
+  width: 95%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 22px;
+  border: none;
+  
+  border-radius: 3px;
+  background-color:white;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+}
+button{
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(232, 222, 222);
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+button:hover{
+  background-color: greenyellow;
+}
+button:active{
+  transform: scale(0.98);
+}
+.operation{
+  background-color: orange;
+}
+.operation:hover{
+  background-color: lawngreen;
+}
+.equals{
+  background-color: orangered;
+}
+.equals:hover{
+  background-color: deeppink;
+}
